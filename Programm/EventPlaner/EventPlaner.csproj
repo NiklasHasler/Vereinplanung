@@ -67,6 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bilder\login.jpg" />
+    <Content Include="main.css" />
+    <Content Include="Seiten\dashboard.html" />
+    <Content Include="Seiten\erfasseFahrer.html" />
+    <Content Include="Seiten\eventDetails.html" />
+    <Content Include="Seiten\login.html" />
+    <Content Include="Seiten\registrierung.html" />
+    <Content Include="Seiten\userliste.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +89,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
